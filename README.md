@@ -1,14 +1,18 @@
-# Devocional Navideño 2026 — El amor que nos une
+# Devocional Navideño 2026 · El amor que nos une
 
-Sitio web estático para publicar en GitHub Pages.
+Sitio estático para GitHub Pages. No requiere servidor backend.
 
-## Publicar
-1. Crea un repositorio en GitHub (por ejemplo, `devocional-navideno-2026`).
-2. Sube todos los archivos y la carpeta `assets` de este proyecto.
-3. En el repositorio abre **Settings → Pages**.
-4. En **Build and deployment**, selecciona **Deploy from a branch**.
-5. Selecciona la rama `main` y la carpeta `/ (root)`, guarda.
-6. Espera a que GitHub Pages publique el sitio; aparecerá el enlace en esa sección.
+## Publicación
+1. Sube el contenido de esta carpeta al repositorio (index.html debe quedar en la raíz).
+2. Conserva la carpeta `assets` junto a `index.html`.
+3. En GitHub: Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
 
-## Contenido editable
-Los textos, horarios y diseño se pueden modificar en `index.html` y `styles.css`.
+## Estructura requerida
+- `index.html`
+- `styles.css`
+- `script.js`
+- `assets/logo.png`
+- `assets/fondo-original.png`
+- `assets/arbol-arcoiris.png`
+
+Los nombres y las mayúsculas/minúsculas deben conservarse exactamente. El diseño incluye decoración navideña animada con CSS y respeta el fondo original de círculos de colores.
